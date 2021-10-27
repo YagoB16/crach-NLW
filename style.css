@@ -31,7 +31,7 @@ main{
     max-width: 250px;
     margin-left:auto;
     margin-right: auto;
-
+    text-align: center;
     color: var(--grey); 
 }
 
@@ -84,4 +84,17 @@ ul{
     gap: 0.5rem;
 
     justify-content: center;
+}
+
+@media (min-width: 720px) {
+  main{
+    background: url(images/Desktop.svg) no-repeat center/cover;
+    background-color: #121214;
+    min-height: 820px;
+    height: 100vh;
+    width: 100%;
+  }
+  .avatar {
+    margin: 13rem auto 0;
+  }
 }
