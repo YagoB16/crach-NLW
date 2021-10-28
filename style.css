@@ -90,7 +90,7 @@ ul{
 @media (min-width: 820px) {
   main{
     background: url(images/Desktop.svg) no-repeat center/cover;
-    background-color: hsl(240, 80%, 44%);
+    background-color: hsl(241, 80%, 44%);
     min-height: 820px;
     height: 100vh;
     width: 100%;
